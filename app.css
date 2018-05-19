@@ -19,6 +19,7 @@ $bg-color: #f5f5f5;
   list-style-type: none;
   text-decoration: none;
   font-family: 'Carme', sans-serif;
+  transition: 0.4s;
 }
 
 section > h3
@@ -177,6 +178,10 @@ section > h3
               border: 2px solid #fff;
             }
 
+
+
+/*  ===   SERVICES    ===  */
+
       .services
       {
         padding: 25px 0;
@@ -205,6 +210,7 @@ section > h3
       {
         padding: 10px 0;
         width: 30%;
+        min-width: 260px;
         height: 400px;
         border-radius: 5px;
         display: flex;
@@ -615,6 +621,8 @@ section > h3
 
       .social-media > ul > li > a:hover
       {
+        width: 120%;
+        height: 120%;
         border: 2px solid #fff;
       }
 
