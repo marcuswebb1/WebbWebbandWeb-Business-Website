@@ -313,13 +313,35 @@ section > h3 {
   display: flex;
   align-items: center;
   overflow: hidden;
+  position: relative;
 }
 
 .about > ul > li:nth-child(1) {
   background-color: #40407a;
 }
+.about > ul > li:nth-child(1):hover
+{
+    background-image: url("images/twins_1.JPG");
+    background-position: left;
+    background-position-y: 10%;
+    background-size: 75vw;
+    /*opacity: 0.975;*/
+    transition: 0s;
+}
+
 .about > ul > li:nth-child(2) {
   background-color: #474787;
+}
+
+.about > ul > li:nth-child(2):hover
+{
+    background-image: url("images/twins_1.JPG");
+    background-position: right;
+    background-position-y: 18%;
+    background-position-x: 100%;
+    background-size: 75vw;
+    /*opacity: 0.975;*/
+    transition: 0s;
 }
 
 .about > ul > li > div {
