@@ -1,0 +1,30 @@
+.gallery .card {
+    border: 3px solid #fff;
+    border-radius: 7px;
+
+    &:hover {
+        transition: .3s;
+        border: 3px solid $light;
+    }
+}
+
+// .gallery-btn {
+//     background-color: $light;
+
+//     &:hover {
+//         transition: .3s;
+//         background-color: $dark;
+//     }
+// }
+.gallery-btn {
+    border: 2px solid $light;
+    background-color: $light;
+    &:hover {
+        transition: .3s;
+        color: $light !important;
+        border: 2px solid $light;
+        background-color: #fff;
+    }
+}
+
+

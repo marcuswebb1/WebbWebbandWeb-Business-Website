@@ -1,0 +1,20 @@
+.service-cards {
+    height: 400px;
+
+    &:hover {
+        transition: .5s;
+        background-color: rgb(169, 169,
+ 169);
+    }
+
+    .fab-icons i {
+        padding: 40px;
+        background-color: $light;
+        border-radius: 7px;
+    }
+
+    .btn {
+        margin-top: auto;
+        background-color: $light;
+    }
+}

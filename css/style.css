@@ -1,0 +1,136 @@
+section .container > h3 {
+  padding: 15px 0;
+  font-size: 1.5rem;
+  color: #40407a; }
+
+.main-header {
+  background-color: #2c2c54; }
+  .main-header .navbar-nav {
+    text-align: center; }
+
+.hero {
+  height: 100%;
+  background-color: #40407a; }
+  .hero .card {
+    min-height: 60vh;
+    background-color: #40407a; }
+    .hero .card .btn {
+      border: 2px solid #706fd3;
+      background-color: #706fd3; }
+      .hero .card .btn:hover {
+        transition: .3s;
+        border: 2px solid #fff;
+        background-color: #40407a; }
+
+.service-cards {
+  height: 400px; }
+  .service-cards:hover {
+    transition: .5s;
+    background-color: darkgray; }
+  .service-cards .fab-icons i {
+    padding: 40px;
+    background-color: #706fd3;
+    border-radius: 7px; }
+  .service-cards .btn {
+    margin-top: auto;
+    background-color: #706fd3; }
+
+.gallery .card {
+  border: 3px solid #fff;
+  border-radius: 7px; }
+  .gallery .card:hover {
+    transition: .3s;
+    border: 3px solid #706fd3; }
+
+.gallery-btn {
+  border: 2px solid #706fd3;
+  background-color: #706fd3; }
+  .gallery-btn:hover {
+    transition: .3s;
+    color: #706fd3 !important;
+    border: 2px solid #706fd3;
+    background-color: #fff; }
+
+.maurice-card {
+  background-color: #40407a;
+  height: 45vh; }
+  .maurice-card .card {
+    background-color: inherit; }
+
+.marcus-card {
+  background-color: #474787;
+  height: 45vh; }
+  .marcus-card .card {
+    background-color: inherit; }
+
+.contact {
+  background-color: #706fd3;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column; }
+  .contact .title {
+    background-color: #fff; }
+  .contact .contact-form {
+    padding: 10px; }
+  .contact .form-group label[placeholder] {
+    color: #992323; }
+
+.footer {
+  background-color: #2c2c54;
+  min-height: 25vh; }
+
+/************************************  Media Queries  *************************************************/
+/*Small devices (tablets, 576px and up)*/
+@media only screen and (min-width: 576px) {
+  .navbar-nav {
+    margin-left: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between; }
+
+  .maurice-card .card, .marcus-card .card {
+    width: 27rem !important; }
+    .maurice-card .card .card-body, .marcus-card .card .card-body {
+      height: 20rem;
+      justify-content: center; }
+      .maurice-card .card .card-body h3, .marcus-card .card .card-body h3 {
+        font-size: 1.8rem; }
+      .maurice-card .card .card-body p, .marcus-card .card .card-body p {
+        font-size: 1.25rem;
+        margin-top: 45px; }
+
+  .work {
+    height: auto; }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+    margin: 10px 0; }
+    .gallery .card {
+      width: 33.3%;
+      height: auto; }
+    .gallery .showcase-cards .card {
+      width: 50%; }
+
+  .btn-div {
+    margin: 15px 0;
+    width: 100%;
+    text-align: center; }
+
+  .contact-form {
+    padding: 0;
+    margin: auto;
+    font-size: 1.3rem; } }
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+  .navbar-nav {
+    margin-left: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between; } }
+/*For the iphone X*/
+/*Large devices (desktops, 992px and up)*/
+
+/*# sourceMappingURL=style.css.map */

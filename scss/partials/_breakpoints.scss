@@ -1,0 +1,106 @@
+// // // Extra small devices (portrait phones, less than 576px)
+// @include media-breakpoint-only(xs) {
+
+//  }
+
+// // Small devices (landscape phones, 576px and up)
+// @include media-breakpoint-only(sm) { ... }
+
+// // Medium devices (tablets, 768px and up)
+// @include media-breakpoint-only(md) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @include media-breakpoint-only(lg) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @include media-breakpoint-only(xl) { ... }
+
+/************************************  Media Queries  *************************************************/
+
+/*Small devices (tablets, 576px and up)*/
+@media only screen and (min-width: 576px) {
+    // main-header
+    .navbar-nav {
+        margin-left: auto;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // about-us
+    .maurice-card, .marcus-card {
+        .card {
+            width: 27rem !important;
+
+            .card-body {
+                height: 20rem;
+                justify-content: center;
+
+                h3 {
+                    font-size: 1.8rem;
+                }
+
+                p {
+                    font-size: 1.25rem;
+                    margin-top: 45px;
+                }
+            }
+        }
+    }
+
+    // Work
+    .work {
+        height: auto;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+        margin: 10px 0;
+
+        .card {
+            width: 33.3%;
+            height: auto;
+        }
+
+        .showcase-cards .card {
+            width: 50%;
+        }
+    }
+
+    .btn-div {
+        margin: 15px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    // Contact
+
+    .contact-form {
+        padding: 0;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+    // main-header
+    .navbar-nav {
+        margin-left: auto;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/*For the iphone X*/
+@media only screen and (min-width: 800px) and (max-width: 830px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media only screen and (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {}

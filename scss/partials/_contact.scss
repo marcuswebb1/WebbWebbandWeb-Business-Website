@@ -1,0 +1,17 @@
+.contact {
+    background-color: $light;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    .title {
+        background-color: $bg-white;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+
+    .form-group label[placeholder] {
+        color: rgb(153, 35, 35);
+    }
+}

@@ -1,0 +1,17 @@
+.hero {
+    height: 100%;
+    background-color: $medium-dark;
+    .card {
+        min-height: 60vh;
+        background-color: $medium-dark;
+        .btn {
+            border: 2px solid $light;
+            background-color: $light;
+            &:hover {
+                transition: .3s;
+                border: 2px solid #fff;
+                background-color: $medium-dark;
+            }
+        }
+    }
+}
