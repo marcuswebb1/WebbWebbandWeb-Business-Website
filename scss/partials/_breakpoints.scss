@@ -64,9 +64,13 @@
             width: 33.3%;
             height: auto;
         }
+        .showcase-cards {
+            flex-direction: row;
+        }
 
         .showcase-cards .card {
             width: 50%;
+        
         }
     }
 

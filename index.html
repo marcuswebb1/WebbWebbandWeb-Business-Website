@@ -42,7 +42,7 @@
   <body>
     <!-- Main Header -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark main-header">
+    <nav class="navbar navbar-expand-md navbar-dark main-header">
       <div class="container">
         <a class="navbar-brand" href="https://www.webbwebbandweb.com">
           <img
@@ -144,7 +144,7 @@
       <div class="container services">
         <h3>Services</h3>
         <div
-          class="container d-flex flex-column justify-content-around card-space my-3 align-self-center"
+          class="container d-flex flex-column flex-md-row justify-content-around card-space my-3 align-self-center"
         >
           <!-- Design Card -->
           <div class="card service-cards text-center p-3 border-light">
@@ -262,7 +262,49 @@
           risus congue, sed ornare mi aliquam. Pellentesque auctor commodo
           justo, at ornare ligula euismod facilisis.
         </p>
-        <div class="d-flex flex-column">
+        <div id="devCards" class="row px-md-3">
+          <div class="col-md-6 px-0">
+            <div class="card rounded-0 border-0 bg-medium-dark text-light devCards">
+              <div class="card-body p-5 text-center d-flex flex-column justify-content-center">
+                <h3>Maurice Webb</h3>
+                <p>
+                  I am an aspiring, self-taught web developer that is passionate
+                  about the Front-End. Currently in pursuit of a Bachelors in
+                  Computer Science.
+                </p>
+                <div class="row d-flex justify-content-center">
+                  <div class="col-4 text-right">
+                    <button class="btn btn-bg-light text-light">Resume</button>
+                  </div>
+                  <div class="col-4 text-left"> 
+                    <button class="btn btn-bg-dark text-light">Portfolio</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 px-0">
+            <div class="card rounded-0 border-0 bg-medium-light text-light devCards">
+              <div class="card-body p-5 text-center d-flex flex-column justify-content-center">
+                <h3>Marcus Webb</h3>
+                <p>
+                  Hi, my name is Marcus Webb. I am a passionate, self-taught,
+                  up-and-coming Front-End Web Developer who absolutely loves to
+                  code.
+                </p>
+                <div class="row d-flex justify-content-center">
+                  <div class="col-4 text-right">
+                    <button class="btn btn-bg-light text-light">Resume</button>
+                  </div>
+                  <div class="col-4 text-left"> 
+                    <button class="btn btn-bg-dark text-light">Portfolio</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="d-flex flex-column flex-md-row">
           <div class="maurice-card text-white d-flex justify-content-center">
             <div class="card my-auto border-0" style="width: 18rem;">
               <div class="card-body text-center d-flex flex-column">
@@ -317,7 +359,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <p class="py-3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
           fermentum tellus et mi pulvinar, vel pretium ante consequat. Mauris a
@@ -371,7 +413,7 @@
         <div class="container"><h3>Contact</h3></div>
       </div>
       <div class="container contact-form">
-        <form class="d-flex flex-column">
+        <form class="d-flex flex-column py-3 p-md-3">
           <div class="form-group">
             <label for="exampleInputName" class="text-white">Full Name</label>
             <input
@@ -417,18 +459,9 @@
     <!-- Footer -->
     <footer class="footer py-3">
       <div class="container d-flex flex-column">
-        <div class="container py-3">
-          <a
-            href="https://www.google.com/maps/place/Richmond,+VA/@37.5245782,-77.6333459,11z/data=!3m1!4b1!4m5!3m4!1s0x89b111095799c9ed:0xbfd83e6de2423cc5!8m2!3d37.5407246!4d-77.4360481"
-            ><iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101257.30777735026!2d-77.56347325327283!3d37.52464016828059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b111095799c9ed%3A0xbfd83e6de2423cc5!2sRichmond%2C+VA!5e0!3m2!1sen!2sus!4v1534301744012"
-              width="100%"
-              height="100%"
-              frameborder="0"
-              style="border:0; margin: 0 auto"
-              allowfullscreen
-            ></iframe
-          ></a>
+        <div class="row px-3 px-md-0 d-flex justify-content-start">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d405029.1180110952!2d-77.493261!3d37.524661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b111095799c9ed%3A0xbfd83e6de2423cc5!2sRichmond%2C%20VA!5e0!3m2!1sen!2sus!4v1577772122815!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" height ="300px" class="col-md-6 p-0 px-md-3"></iframe>
         </div>
       </div>
     </footer>

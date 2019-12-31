@@ -1,6 +1,7 @@
 .maurice-card {
     background-color: $medium-dark;
-    height: 45vh;
+    min-height: 45vh;
+    height: auto;
 
     .card {
         background-color: inherit;
@@ -9,9 +10,40 @@
 
 .marcus-card {
     background-color: $medium-light;
-    height: 45vh;
+    min-height: 45vh;
+    height: auto;
 
     .card {
         background-color: inherit;
     }
+}
+
+.bg-medium-dark {
+    background-color: $medium-dark !important;
+}
+
+.bg-medium-light {
+    background-color: $medium-light !important;
+}
+
+.btn-bg-dark {
+    background-color: $dark !important;
+    border: 3px solid inherit;
+
+    &:hover {
+        border-color: #fff;
+    }
+}
+
+.btn-bg-light {
+    background-color: $light !important;
+    border: 3px solid inherit;
+
+    &:hover {
+        border-color: #fff;
+    }
+}
+
+.devCards {
+    height: 500px;
 }

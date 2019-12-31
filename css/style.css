@@ -42,6 +42,9 @@ section .container > h3 {
     transition: .3s;
     border: 3px solid #706fd3; }
 
+.btn-div {
+  text-align: center; }
+
 .gallery-btn {
   border: 2px solid #706fd3;
   background-color: #706fd3; }
@@ -51,17 +54,43 @@ section .container > h3 {
     border: 2px solid #706fd3;
     background-color: #fff; }
 
+.showcase-cards {
+  flex-direction: column; }
+
 .maurice-card {
   background-color: #40407a;
-  height: 45vh; }
+  min-height: 45vh;
+  height: auto; }
   .maurice-card .card {
     background-color: inherit; }
 
 .marcus-card {
   background-color: #474787;
-  height: 45vh; }
+  min-height: 45vh;
+  height: auto; }
   .marcus-card .card {
     background-color: inherit; }
+
+.bg-medium-dark {
+  background-color: #40407a !important; }
+
+.bg-medium-light {
+  background-color: #474787 !important; }
+
+.btn-bg-dark {
+  background-color: #2c2c54 !important;
+  border: 3px solid inherit; }
+  .btn-bg-dark:hover {
+    border-color: #fff; }
+
+.btn-bg-light {
+  background-color: #706fd3 !important;
+  border: 3px solid inherit; }
+  .btn-bg-light:hover {
+    border-color: #fff; }
+
+.devCards {
+  height: 500px; }
 
 .contact {
   background-color: #706fd3;
@@ -70,10 +99,8 @@ section .container > h3 {
   flex-direction: column; }
   .contact .title {
     background-color: #fff; }
-  .contact .contact-form {
-    padding: 10px; }
-  .contact .form-group label[placeholder] {
-    color: #992323; }
+  .contact .form-group ::placeholder {
+    color: #c2c1c1; }
 
 .footer {
   background-color: #2c2c54;
@@ -111,6 +138,8 @@ section .container > h3 {
     .gallery .card {
       width: 33.3%;
       height: auto; }
+    .gallery .showcase-cards {
+      flex-direction: row; }
     .gallery .showcase-cards .card {
       width: 50%; }
 

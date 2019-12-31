@@ -7,11 +7,7 @@
         background-color: $bg-white;
     }
 
-    .contact-form {
-        padding: 10px;
-    }
-
-    .form-group label[placeholder] {
-        color: rgb(153, 35, 35);
+    .form-group ::placeholder {
+        color: rgb(194, 193, 193);
     }
 }
